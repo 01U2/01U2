@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @01U2
+- 👋 Hi, I’m Olu
 - 👀 I’m interested in design automation, data engineering and anything fun. 
 - 🌱 I’m currently learning to use C++ and VBA, which are very useful in design automation with autodesk platform services
 - 💞️ I’m looking to collaborate on ...
