@@ -1,0 +1,19 @@
+nav ul {
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px; /* Add spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
