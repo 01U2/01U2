@@ -26,22 +26,25 @@
         <main>
             <!-- HTML Section -->
             <section id="html">
-                <h2>HTML</h2>
                 <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
-                <h3>Forms</h3>
-                <form  id="html-form">
-                    <label for="name">Name:</label>
-                    <input required type="text" id="name" name="name">
-                    <label for="email">Email:</label>
-                    <input required type="email" id="email" name="email">
-                
-                    <label for="subscribe-email">Subscribe to Email</label>
-                    <input type="checkbox" id="subscribe-email" name="subscribe-email" value="yes">
-                    <label for="subscribe-text">Subscribe to Text</label>
-                    <input type="checkbox" id="subscribe-text" name="subscribe-text" value="yes">
+                <fieldset>
+                    <legend>Forms</legend>
+                    <form  id="html-form">
+                        <label for="name">Name:</label><br>
+                        <input required type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input required type="email" id="email" name="email"><br>
+                        <label for="subscribe-email">Subscribe to Email</label><br>
+                        <input type="checkbox" id="subscribe-email" name="subscribe-email" value="yes"><br>
+                        <label for="subscribe-text">Subscribe to Text</label><br>
+                        <input type="checkbox" id="subscribe-text" name="subscribe-text" value="yes"><br>
+                        <label> Do you agree to us </label><br>
+                        <label>Yes<input type="radio" id="Agree" name="agree" value="Yes"> No<input type="radio" id="Agree" name="agree" value="No"> </label>
+                    </form>
+                </fieldset>
             </section>
             <section class="html" id="table">
-                <h2>Tables</h2>
+            <fieldset><label>Tables</label>
                 <table>
                     <caption>Sample Table</caption>
                     <thead>
@@ -63,6 +66,7 @@
                             <td colspan="3">End of Table</td>
                         </tr>
                 </table>
+            </fieldset>
             </section>
 
                     
